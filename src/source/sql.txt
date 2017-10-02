@@ -1,0 +1,107 @@
+CREATE TABLE kanjin5(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+	onyomi VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+	kunyomi VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE kanjin4(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	onyomi VARCHAR(100) ,
+	kunyomi VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+
+CREATE TABLE kanjin3(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	onyomi VARCHAR(100) ,
+	kunyomi VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE kanjin2(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	onyomi VARCHAR(100) ,
+	kunyomi VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE kanjin1(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	onyomi VARCHAR(100) ,
+	kunyomi VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE vocabn5(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	hiragana VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE vocabn4(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	hiragana VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE vocabn3(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	hiragana VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE vocabn2(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	hiragana VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE vocabn1(
+	id int  AUTO_INCREMENT,
+	kanji VARCHAR(100) ,
+	hiragana VARCHAR(100) ,
+	english VARCHAR(1000) ,
+	note varchar(1000) ,
+     PRIMARY KEY (id)
+);
+
+kanji : n5:79
+n4:166
+n3:367
+n2:367
+n1:1232
+vocab:
+n5:669
+n4:634
+n3:1837
+n2:1833
+n1:3476

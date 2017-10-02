@@ -19,14 +19,14 @@ import org.apache.pdfbox.text.PDFTextStripperByArea;
 
 public class ReadKanji {
     public static void main(String args[]) throws SQLException{
-        String sql = "insert into kanjin1(kanji,onyomi,kunyomi,english) values(?,?,?,?)";
+        String sql = "insert into kanjin3(kanji,onyomi,kunyomi,english) values(?,?,?,?)";
         Connection con ;
         con = DriverManager.getConnection("jdbc:mysql://localhost/jlpt?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true", "root", "564488");
         PreparedStatement pr = con.prepareStatement(sql);
     
         try {
     PDDocument document = null;
-    document = PDDocument.load(new File("C:\\Users\\nhata\\Downloads\\KanjiList.N1.pdf"));
+    document = PDDocument.load(new File("C:\\Users\\nhata\\Downloads\\KanjiList.N3.pdf"));
 
     document.getClass();
     if (!document.isEncrypted()) {
